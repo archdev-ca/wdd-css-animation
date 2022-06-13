@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>HTML5 Template (change me!)</title>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Teko&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <!--
+  /////////////////////////////////////////////////////////
+  //                                                     //
+  //                   Archie Gelonga                    //
+  //         WDD Advanced HTML5/CSS3 Assignment 1        //
+  //                  November 7, 2021                   //
+  //                                                     //
+  /////////////////////////////////////////////////////////
+  -->
+  <body>
+    <header><!-- Begin Header -->
+      <div class="utility-nav"><!-- Begin Utility Nav -->
+        <div class="container">
+          <a href="#">About Us</a>
+          <span class="separator"></span>
+          <a href="#">Contact Us</a>
+        </div>
+      </div><!-- End Utility Nav -->
+      <div class="container"><!-- Begin Logo Area -->
+        <div class="logo-section">
+          <img src="images/snowflake.png" alt="Snowflake" width="48" />
+          <strong>Llama-huh</strong>
+        </div>
+      </div><!-- End logo Area -->
+      <nav id="main-nav"><!-- Begin main nav-->
+        <div class="container">
+          <ul>
+            <li>
+              <a href="#">Home</a>
+              <span class="tooltip">Section is under construction</span>
+            </li>
+            <li>
+              <a href="#">About</a>
+              <span class="tooltip">Section is under construction</span>
+            </li>
+            <li>
+              <a href="#">Pianos</a>
+              <span class="tooltip">Section is under construction</span>
+            </li>
+            <li class="active">
+              <a href="#">Free Lesson</a>
+            </li>
+            <li>
+              <a href="#">Artists</a>
+              <span class="tooltip">Section is under construction</span>
+            </li>
+          </ul>
+        </div>
+      </nav><!-- End main nav-->
+    </header><!-- End Header -->
+    <div id="main-wrapper">
+			<!-- Begin Play/Stop Controls -->
+      <input type="radio" name="play" id="play-button" value="1" />
+      <input type="radio" name="play" id="pause-button" value="1" />
+      <label class="button" for="play-button"
+        ><span class="icon-play"></span>Play</label
+      >
+      <label class="button" for="pause-button"
+        ><span class="icon-stop"></span>Stop</label
+      >
+			<!-- End Play/Stop Controls -->
+
+      <div class="main-container">
+        <div class="lyrics-wrapper"><!-- Begin Lyrics Area -->
+          <span class="lyric-line">
+            <span class="text"
+              ><span class="highlight">Mary had a little lamb,</span>Mary had a
+              little lamb,</span
+            >
+          </span>
+          <span class="lyric-line">
+            <span class="text"
+              ><span class="highlight">little lamb, little lamb.</span>little
+              lamb, little lamb.</span
+            >
+          </span>
+          <span class="lyric-line">
+            <span class="text"
+              ><span class="highlight">Mary had a little lamb,</span>Mary had a
+              little lamb,</span
+            >
+          </span>
+          <span class="lyric-line">
+            <span class="text"
+              ><span class="highlight">its fleece was white as snow.</span>its
+              fleece was white as snow.</span
+            >
+          </span>
+        </div><!-- End Lyrics Area -->
+        <div class="piano-wrapper"><!-- Begin Piano -->
+          <div class="piano">
+            <div class="back-bottom"></div>
+            <div class="back-top"></div>
+            <div class="top-ridge"></div>
+            <div class="controls-wrapper">
+              <div class="rail">
+                <button class="piano-button">
+                  <span class="text">Piano</span>
+                </button>
+                <button class="piano-button">
+                  <span class="text">E.Piano</span>
+                </button>
+                <button class="piano-button">
+                  <span class="text">Organ</span>
+                </button>
+                <button class="piano-button">
+                  <span class="text">CLV/VIB</span>
+                </button>
+                <button class="piano-button">
+                  <span class="text">Strings</span>
+                </button>
+                <button class="piano-button">
+                  <span class="text">Bass</span>
+                </button>
+              </div>
+              <div class="logo">Llama-huh</div>
+            </div>
+            <div class="gradient"></div>
+            <div class="edge">
+              <div class="reflection"></div>
+              <div class="reflection"></div>
+              <div class="reflection"></div>
+
+              <div class="reflection -even-first"></div>
+              <div class="reflection -even-last"></div>
+
+              <div class="reflection"></div>
+              <div class="reflection"></div>
+              <div class="reflection"></div>
+
+              <div class="reflection -even-first"></div>
+              <div class="reflection -even-last"></div>
+            </div>
+            <div class="red-felt"></div>
+            <div class="keys">
+              <div class="black-keys">
+                <div class="black-key"></div>
+                <div class="black-key"></div>
+                <div class="black-key"></div>
+
+                <div class="black-key -even-first"></div>
+                <div class="black-key -even-last"></div>
+
+                <div class="black-key"></div>
+                <div class="black-key"></div>
+                <div class="black-key"></div>
+
+                <div class="black-key -even-first"></div>
+                <div class="black-key -even-last"></div>
+              </div>
+              <input type="radio" name="white-keys" id="key-1" />
+              <label for="key-1" class="white-key"
+                ><span class="note">Fa</span><span class="ripple"></span
+              ></label>
+              <input type="radio" name="white-keys" id="key-2" />
+              <label for="key-2" class="white-key"
+                ><span class="note">So</span><span class="ripple"></span
+              ></label>
+              <input type="radio" name="white-keys" id="key-3" />
+              <label for="key-3" class="white-key"
+                ><span class="note">La</span><span class="ripple"></span
+              ></label>
+              <input type="radio" name="white-keys" id="key-4" />
+              <label for="key-4" class="white-key"
+                ><span class="note">Ti</span><span class="ripple"></span
+              ></label>
+              <input type="radio" name="white-keys" id="key-5" />
+              <label for="key-5" class="white-key do"
+                ><span class="note">Do</span><span class="ripple"></span
+              ></label>
+              <input type="radio" name="white-keys" id="key-6" />
+              <label for="key-6" class="white-key re"
+                ><span class="note">Re</span><span class="ripple"></span
+              ></label>
+              <input type="radio" name="white-keys" id="key-7" />
+              <label for="key-7" class="white-key mi"
+                ><span class="note">Mi</span><span class="ripple"></span
+              ></label>
+              <input type="radio" name="white-keys" id="key-8" />
+              <label for="key-8" class="white-key fa"
+                ><span class="note">Fa</span><span class="ripple"></span
+              ></label>
+              <input type="radio" name="white-keys" id="key-9" />
+              <label for="key-9" class="white-key so"
+                ><span class="note">So</span><span class="ripple"></span
+              ></label>
+              <input type="radio" name="white-keys" id="key-10" />
+              <label for="key-10" class="white-key"
+                ><span class="note">La</span><span class="ripple"></span
+              ></label>
+              <input type="radio" name="white-keys" id="key-11" />
+              <label for="key-11" class="white-key"
+                ><span class="note">Ti</span><span class="ripple"></span
+              ></label>
+              <input type="radio" name="white-keys" id="key-12" />
+              <label for="key-12" class="white-key"
+                ><span class="note">Do</span><span class="ripple"></span
+              ></label>
+              <input type="radio" name="white-keys" id="key-13" />
+              <label for="key-13" class="white-key"
+                ><span class="note">Re</span><span class="ripple"></span
+              ></label>
+              <input type="radio" name="white-keys" id="key-14" />
+              <label for="key-14" class="white-key"
+                ><span class="note">Mi</span><span class="ripple"></span
+              ></label>
+            </div>
+            <div class="front-panel"></div>
+          </div>
+        </div><!-- End Piano -->
+      </div>
+    </div>
+    <footer><!-- Begin Footer -->
+      <div class="container">
+        &copy; 2021 Copyright Llama-huh All Rights Reserved
+      </div>
+    </footer><!-- End Footer -->
+  </body>
+</html>
